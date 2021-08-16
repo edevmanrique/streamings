@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 900px)"">
+</head>
+<body>
+    <header class=" description">
+    <h1>Find out if Streamings are really better than Blockbuster</h1>
+    </header>
+    <main class="calculating">
+        <h2 class="calculating__title">How many movies do you usually see in 1 month?</h2>
+        <input class="calculating__months" type="text" id="month" onblur="calculation()">
+
+        <h2 class="calculating__quantity">Select the streamings that you need to see those movies</h2>
+        <div class="calculating__str">
+            <input class="Netflix" type="checkbox" id="Netflix">
+            <input class="HBO" type="checkbox" id="HBO">
+            <input class="Disney" type="checkbox" id="Disney">
+            <input class="Amazon" type="checkbox" id="Amazon">
+            <input class="Hulu" type="checkbox" id="Hulu">
+            <ul class="calculating__streamings">
+                <li class="calculating__item item-netflix">
+                    <img src="./img/netflix.png" alt="Netflix logo">
+                </li>
+                <li class="calculating__item item-hbo">
+                    <img src="./img/hbo.png" alt="HBO Max logo">
+                </li>
+                <li class="calculating__item item-disney">
+                    <img src="./img/disney.png" alt="Disney+ logo">
+                </li>
+                <li class="calculating__item item-amazon">
+                    <img src="./img/amazon.png" alt="Amazon Prime logo">
+                </li>
+                <li class="calculating__item item-hulu">
+                    <img src="./img/hulu.jpg" alt="Hulu Logo">
+                </li>
+            </ul>
+        </div>
+        <p class="calculating__stream" id="par-1"></p>
+        <p class="calculating__str-value" id="str-value"></p>
+        <p class="calculating__bbr" id="par-2"></p>
+        <p class="calculating__bbr-value" id="bbr-value"></p>
+        <p class="calculating__saved" id="saved"></p>
+    </main>
+    <footer class="credits">
+        <p>Developed by Edison Manrique</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    </body>
+
+</html>

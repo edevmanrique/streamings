@@ -1,0 +1,76 @@
+.description{
+    padding: 20px 0px;
+    margin: 0;
+}
+
+.calculating{
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.11);
+    margin: 50px 0px;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.199);
+}
+
+.calculating__stream{
+    margin-top: 8vh;
+}
+
+.calculating__quantity{
+    margin-top: 10vh;
+}
+
+.Hulu{
+    left: 88.9%;
+}
+
+.Netflix:hover{
+    cursor: pointer;
+}
+
+.Netflix:hover ~ .calculating__streamings > .item-netflix > img{
+    border: 4px solid rgba(241, 110, 110, 0.808);
+}
+
+.HBO:hover{
+    cursor: pointer;
+}
+
+.HBO:hover ~ .calculating__streamings > .item-hbo > img{
+    border: 4px solid rgba(184, 61, 255, 0.808);
+}
+
+.Disney:hover{
+    cursor: pointer;
+}
+
+.Disney:hover ~ .calculating__streamings > .item-disney > img{
+    border: 4px solid rgba(77, 175, 255, 0.808);
+}
+
+.Amazon:hover{
+    cursor: pointer;
+}
+
+.Amazon:hover ~ .calculating__streamings > .item-amazon > img{
+    border: 4px solid rgba(206, 255, 30, 0.781);
+}
+
+.Hulu:hover{
+    cursor: pointer;
+}
+
+.Hulu:hover ~ .calculating__streamings > .item-hulu > img{
+    border: 4px solid rgb(255, 255, 255);
+}
+
+.Amazon{
+    left: 68.5%;
+}
+
+.Disney{
+    left: 48.5%;
+}
+
+.HBO{
+    left: 28.5%;
+}
